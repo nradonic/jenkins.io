@@ -258,7 +258,7 @@ of Pipeline Script's more advanced features.
 Jenkins Pipeline exposes environment variables via the global variable `env`,
 which is available from anywhere within a `Jenkinsfile`. The full list of
 environment variables accessible from within Jenkins Pipeline is documented at
-link:http://localhost:8080/pipeline-syntax/globals#env[localhost:8080/pipeline-syntax/globals#env],
+link:http://localhost:8080/jenkins/pipeline-syntax/globals#env[localhost:8080/jenkins/pipeline-syntax/globals#env],
 assuming a Jenkins master is running on `localhost:8080`, and includes:
 
 BUILD_ID:: The current build ID, identical to BUILD_NUMBER for builds created in Jenkins versions 1.597+
